@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    background-color: rgba(226, 43, 43, 0.281);
+    justify-content: space-between;
+}
+header figure{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+header figure figcaption{
+    font-size: 20px;
+    padding: 3px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+header nav .geral a{
+    margin-right: 5px;
+}
+header nav a:hover:not(header nav ul div#menu li a){
+    background-color: seagreen;
+    color: snow;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    position: relative;
+}
+header nav ul li{
+    margin-right: 20px;
+}
+header nav ul div#menu{
+    display: none;
+    position: absolute;
+}
+header nav ul div#menu li{
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+header nav ul div#menu li:first-child{
+    margin-top: 25px;
+    background-color: goldenrod;
+}
+header nav ul div#menu li:not(header nav ul div#menu li:first-child){
+    margin-top: 0px;
+    background-color: goldenrod;
+}
+div#destaque{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../imagens/hamburger.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div#destaque h1{
+    color: lightsalmon;
+}
+div#destaque div.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+div#destaque div.cards div.card{
+    padding: 0px;
+    background-color:rgba(160, 82, 45, 0.8);
+    border-radius: 15px;
+}
+div#vegano{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   background-image: url("../imagens/vegano.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+div#vegano h1{
+    color: seagreen;
+}
+div#vegano div.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+div#vegano div.cards div.card{
+    padding: 0px;
+    background-color: rgba(46, 139, 87, 0.8);
+    border-radius: 15px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(226, 43, 43, 0.281);
+}
+footer figure{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+footer figure figcaption{
+        font-size: 20px;
+        padding: 3px;
+}
+footer table{
+    margin-top: 5px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+footer table caption{
+    background-color: rgb(46, 139, 87) ;
+    color: wheat;
+}
+footer table thead th{
+    margin: 3px 8px;
+}
+footer table tbody td{
+    margin: 3px 8px;
+}
+footer table .dia{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+footer table .horario{
+    background-color: rgb(196, 17, 17);
+    color: whitesmoke;
+}

@@ -1,0 +1,107 @@
+@media(min-width: 680px) and (max-width: 1200px){
+    div#destaque{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-image: url("../imagens/hamburger_responsivo.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    div#destaque div.cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+    div#destaque div.cards div.card{
+        display: block;
+        padding: 0px;
+        background-color:rgba(160, 82, 45, 0.0);
+        background-size: 320px 270px ;
+        border-radius: 0px;
+        margin-top: 5px;
+    }
+    div#destaque div.cards div.card figure{
+       padding: 5px;
+       background-color: rgba(160, 82, 45, 0.8);
+    }
+    div#vegano{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url("../imagens/vegano_responsivo.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+     }
+     div#vegano div.cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+    div#vegano div.cards div.card{
+        display: block;
+        padding: 0px;
+        background-color: rgba(46, 139, 87, 0.0);
+        border-radius: 0px;
+        margin-top: 5px;
+    }
+    div#vegano div.cards div.card figure{
+        background-color: rgba(46, 139, 87, 0.8);
+    }
+}
+@media (min-width: 200px) and (max-width: 680px){
+    header nav .geral a{
+        display: none;
+    }
+    div#destaque{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-image: url("../imagens/hamburger_responsivo.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    div#destaque div.cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+    div#destaque div.cards div.card{
+        display: block;
+        padding: 0px;
+        background-color:rgba(160, 82, 45, 0.0);
+        background-size: 320px 270px ;
+        border-radius: 0px;
+        margin-top: 5px;
+    }
+    div#destaque div.cards div.card figure{
+       padding: 5px;
+       background-color: rgba(160, 82, 45, 0.8);
+    }
+    div#vegano{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url("../imagens/vegano_responsivo.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+     }
+     div#vegano div.cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+    div#vegano div.cards div.card{
+        display: block;
+        padding: 0px;
+        background-color: rgba(46, 139, 87, 0.0);
+        border-radius: 0px;
+        margin-top: 5px;
+    }
+    div#vegano div.cards div.card figure{
+        background-color: rgba(46, 139, 87, 0.8);
+    }
+}
